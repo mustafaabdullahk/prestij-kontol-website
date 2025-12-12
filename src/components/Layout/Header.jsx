@@ -30,18 +30,13 @@ export default function Header() {
                         <img src="/logo.png" alt="Prestij Kontrol Sistemleri" className={styles.logoImage} />
                     </Link>
 
-                    <nav
-                        id="primary-navigation"
-                        aria-label="Ana navigasyon"
-                        className={`${styles.nav} ${isMenuOpen ? styles.navOpen : ''}`}
-                    >
+                    <nav className={styles.navDesktop}>
                         <ul className={styles.navList}>
                             {navigation.map((item) => (
                                 <li key={item.path}>
                                     <Link
                                         to={item.path}
                                         className={`${styles.navLink} ${location.pathname === item.path ? styles.active : ''}`}
-                                        onClick={closeMenu}
                                     >
                                         {item.label}
                                     </Link>
@@ -56,7 +51,7 @@ export default function Header() {
                         aria-label="Toggle menu"
                         type="button"
                         aria-expanded={isMenuOpen}
-                        aria-controls="primary-navigation"
+                        aria-controls="mobile-navigation"
                     >
                         <span></span>
                         <span></span>
@@ -64,6 +59,25 @@ export default function Header() {
                     </button>
                 </div>
             </header>
+
+            <nav
+                id="mobile-navigation"
+                className={`${styles.navMobile} ${isMenuOpen ? styles.navMobileOpen : ''}`}
+            >
+                <ul className={styles.navListMobile}>
+                    {navigation.map((item) => (
+                        <li key={item.path}>
+                            <Link
+                                to={item.path}
+                                className={`${styles.navLinkMobile} ${location.pathname === item.path ? styles.active : ''}`}
+                                onClick={closeMenu}
+                            >
+                                {item.label}
+                            </Link>
+                        </li>
+                    ))}
+                </ul>
+            </nav>
 
             <div
                 className={`${styles.backdrop} ${isMenuOpen ? styles.backdropVisible : ''}`}
