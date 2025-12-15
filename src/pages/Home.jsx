@@ -17,15 +17,15 @@ export default function Home() {
                             <span>🏆</span> 1979'dan Beri Güvenilir Çözüm Ortağınız
                         </div>
                         <h1 className={styles.heroTitle}>
-                            <span className={styles.heroHighlight}>Personel Takip</span> ve
-                            <span className={styles.heroHighlight}> Güvenlik Sistemleri</span>
+                            <span className={styles.heroHighlight}>Personel PDKS</span> ve
+                            <span className={styles.heroHighlight}> Access Kontrol Sistemleri</span>
                         </h1>
                         <p className={styles.heroDescription}>
-                            Konya merkezli firmamız, 45 yılı aşkın tecrübesiyle Türkiye genelinde
-                            <strong> parmak izi ve yüz tanıma sistemleri</strong>,
-                            <strong> turnike geçiş kontrolü</strong>,
+                            <strong>Konya merkezli firmamız, 45 yılı aşkın tecrübesiyle Türkiye genelinde</strong>
+                            <strong> biyometrik sistemler</strong>,
+                            turnike geçiş sistemleri,
                             <strong> PDKS yazılımları</strong> ve
-                            <strong> kule saatleri</strong> alanlarında hizmet vermektedir.
+                            kule saatleri alanlarında hizmet vermektedir.
                         </p>
 
                         {/* Key Features */}
@@ -67,7 +67,9 @@ export default function Home() {
                     <div className={styles.heroVisual}>
                         <div className={styles.heroCard}>
                             <div className={styles.heroCardHeader}>
-                                <span className={styles.heroIcon}>⚙️</span>
+                                <span className={styles.heroIcon}>
+                                    <img src="/favicon.ico" alt="Prestij" />
+                                </span>
                                 <h3>Prestij Kontrol Sistemleri</h3>
                             </div>
                             <p className={styles.heroCardDesc}>
