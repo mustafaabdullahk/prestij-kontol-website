@@ -140,7 +140,22 @@
 }
 
 .heroIcon {
-    font-size: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    background: transparent;
+    font-size: 1.6rem;
+    overflow: hidden;
+}
+
+.heroIcon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }
 
 .heroCardHeader h3 {
@@ -313,7 +328,7 @@
 
 .servicesGrid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: var(--spacing-lg);
 }
 
