@@ -145,4 +145,47 @@ export const services = [
         icon: '📚',
         description: 'Personel eğitimi ve kullanım kılavuzları'
     }
+    ,
+    {
+        id: 'embedded-stack',
+        title: 'Gömülü Sistem & Firmware',
+        icon: '🧠',
+        description: 'C, Modern C++, Rust, Zephyr, FreeRTOS, RTEMS, RT-Thread ve Espressif tabanlı gömülü geliştirme'
+    },
+    {
+        id: 'infrastructure',
+        title: 'Bulut & CI/CD',
+        icon: '☁️',
+        description: 'Docker, AWS (EC2, S3, IAM, Route53), GitHub Actions ve container CI/CD süreçleri'
+    },
+    {
+        id: 'web-desktop',
+        title: 'Web & Masaüstü Uygulamaları',
+        icon: '🌐',
+        description: 'React, Tauri, Rust ve C++ kombinasyonlarıyla web ve cross-platform masaüstü deneyimleri'
+    },
+    {
+        id: 'mobile',
+        title: 'Mobil & Uzak Erişim',
+        icon: '📱',
+        description: 'Mobil arayüzler, uzaktan erişim servisleri ve seri köprü servisleri ile cihaz yönetimi'
+    },
+    {
+        id: 'protocols',
+        title: 'IoT Protokoller & Entegrasyon',
+        icon: '📡',
+        description: 'BLE, LoRa, UWB, MQTT, LwM2M, CoAP, gRPC / Protobuf tabanlı iletişim altyapıları'
+    },
+    {
+        id: 'hardware',
+        title: 'Donanım & Test Altyapısı',
+        icon: '🛠️',
+        description: 'SPI, I2C, ADC, DMA, UART, RS-232/485 ve Lauterbach + osiloskop destekli test altyapıları'
+    },
+    {
+        id: 'safety',
+        title: 'Güvenlik, Test ve Uyumluluk',
+        icon: '🛡️',
+        description: 'Clang Static Analysis, ISO/ASIL uyumluluk, yüksek kapasiteli test otomasyonu ve hata yönetimi'
+    }
 ];

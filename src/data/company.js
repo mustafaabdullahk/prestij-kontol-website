@@ -62,6 +62,54 @@ export const company = {
             title: 'Bekçi Kontrol Sistemleri',
             icon: '🛡️',
             description: 'Güvenlik personeli devriye takip sistemleri'
+        },
+        {
+            id: 'embedded',
+            title: 'Gömülü Sistem & Firmware',
+            icon: '🔧',
+            description: 'C/C++, Rust, Zephyr/FreeRTOS ile yüksek güvenlikli firmware geliştirme'
+        },
+        {
+            id: 'cloud',
+            title: 'Bulut & Altyapı',
+            icon: '☁️',
+            description: 'Docker, AWS ve CI/CD ile ölçeklenebilir bulut altyapıları ve servisleri'
+        },
+        {
+            id: 'web-desktop',
+            title: 'Web & Masaüstü Uygulamaları',
+            icon: '🖥️',
+            description: 'React, Tauri, Rust ile web ve cross-platform masaüstü uygulamalar geliştirme'
+        },
+        {
+            id: 'mobile',
+            title: 'Mobil Uygulamalar',
+            icon: '📱',
+            description: 'Mobil uygulama geliştirme ve cihaz-ara yüz entegrasyonları'
+        },
+        {
+            id: 'protocols',
+            title: 'IoT Protokoller & Entegrasyon',
+            icon: '🔗',
+            description: 'BLE, LoRa, UWB, MQTT, LwM2M ile cihaz ve bulut entegrasyonları'
+        },
+        {
+            id: 'ci-cd',
+            title: 'CI/CD & Otomasyon',
+            icon: '⚙️',
+            description: 'GitHub Actions, container CI ve otomatik test/sürüm süreçleri'
+        },
+        {
+            id: 'hardware',
+            title: 'Donanım & Entegrasyon',
+            icon: '🔩',
+            description: 'SPI, I2C, ADC, UART, RS-232/485 gibi donanım arayüzleri ve sürücüler'
+        },
+        {
+            id: 'safety',
+            title: 'Güvenlik, Test & Uyumluluk',
+            icon: '🛡️',
+            description: 'Clang Static Analysis, ISO/ASIL uyumluluk ve kapsamlı test altyapıları'
         }
     ],
 
