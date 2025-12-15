@@ -201,12 +201,12 @@ export default function Home() {
             <section className={styles.cta}>
                 <div className="container">
                     <div className={styles.ctaCard}>
-                        <h2 className={styles.ctaTitle}>Projeniz İçin Size Yardımcı Olalım</h2>
+                        <h2 className={styles.ctaTitle}>Projenizin Potansiyelini Keşfedin</h2>
                         <p className={styles.ctaDescription}>
-                            İhtiyaçlarınıza uygun en iyi çözümü bulmak için bizimle iletişime geçin.
+                            Size özel, hedefe yönelik çözümlerimizle tanışmak ve detayları görüşmek için bizimle iletişime geçin.
                         </p>
                         <Button to="/iletisim" variant="accent" size="large">
-                            Teklif Al →
+                            Bize Ulaşın →
                         </Button>
                     </div>
                 </div>
